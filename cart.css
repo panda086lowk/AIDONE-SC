@@ -1,0 +1,109 @@
+body {
+  background-color:#5B85B1;
+  font-family: Georgia;
+  color:white
+}
+.home{
+  color:white;
+  position:absolute;
+  top:20px;
+  left:20px;
+  font-size:30px;
+  font-family:Georgia;
+  font-weight: bold;
+  z-index:1000;
+}
+.home:hover{
+  color:#2a5685;
+  text-decoration:underline;
+  
+}
+.container{
+  width: 90%;
+  display: flex;
+  color: white;
+  margin: 10px auto;
+}
+.incart{
+  flex:3;
+}
+.product{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin:10px;
+}
+.product img{
+  width:180px;
+  padding:10px;
+  height;180px;
+  margin-top:60px;
+}
+.text{
+  margin-left:30px;
+  color:white;
+  flex: 1;
+}
+.number{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  padding-right: 240px;
+}
+.number button{
+  width: 40px;
+  height: 40px;
+  border:none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer; 
+  color: #2a5685;
+}
+.count{
+  margin:40px;
+  font-size:30px;
+  color:white
+}
+.order{
+  background-color: #2a5685;
+  color: white;
+  padding: 20px 30px;
+  margin-top:60px;
+  width: 300px;
+  flex: 1;
+  margin-left:30px;
+}
+.order h1{
+  font-size: 40px;
+  text-align:center;
+}
+.order p{
+  font-size: 18px;
+  padding: 20px;
+}
+.order h2{
+  font-size: 28px;
+  padding:20px;
+}
+.checkout{
+  width:100%;
+  padding:8px;
+  margin-top:7px;
+  margin-bottom: 5px; 
+  border-radius:30px;
+  font-size:44px;
+  font-family: Georgia;
+  cursor:pointer;
+  background-color:#5b85b1;
+  color:white;
+}
+.payment{
+  margin-top;20px
+  margin-bottom:30px;
+}
+.payment h2{
+  margin-top:0px;
+  padding:1px;
+  color: #a5d8ff;
+  text-align: center;
+}
