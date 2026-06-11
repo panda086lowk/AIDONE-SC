@@ -15,7 +15,7 @@ function updateTotal(){
 }
 plusButtons.forEach((button, index) => {
   button.addEventListener("click", () => {
-     Number(counts[index].textContent) + 1;
+    counts[index].textContent++;
     updateTotal();
   });
 });
@@ -23,7 +23,7 @@ minusButtons.forEach((button, index) => {
   button.addEventListener("click", () => {
     let current = Number(counts[index].textContent);
     if(current > 0){
-     counts[index].textContent = current - 1;
+      counts[index].textContent--;
       updateTotal();
     }
   });
